@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Star Background -->
+    <div id="stars"></div>
+
+    <!-- Floating Glow -->
+    <div class="glow glow1"></div>
+    <div class="glow glow2"></div>
+
+
+
+
+    
+    <!-- SECRET CODE PAGE -->
+
+    <section id="loginPage" class="login-page">
+
+        <div class="login-card">
+
+            <h1>Happy Birthday ❤️</h1>
+
+            <p class="login-text">
+                This little journey was made for someone special.
+            </p>
+
+            <p class="login-hint">
+                Secret Code Hint:
+                <br>
+                DDMMYY - your birthday
+            </p>
+
+            <input
+                type="password"
+                id="secretCode"
+                placeholder="Enter Secret Code">
+
+            <button id="unlockBtn">
+                Unlock Journey ✨
+            </button>
+
+            <p id="loginError"></p>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- Landing Section -->
+    <section class="hero" style="display:none;">
+
+        <div class="content">
+
+            <p class="intro">
+                For Someone Special
+            </p>
+
+            <h1 id="typing"></h1>
+
+            <p class="subtext">
+                A small journey made with memories,
+                gratitude lessons and a heartfelt apology.
+            </p>
+
+            <button id="startBtn">
+                Begin Journey ✨
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    
+    
+    <!-- Memory Constellation -->
+
+    <section id="memories" class="memory-section">
+
+    <h2>Memory Constellation </h2>
+
+    <p class="memory-sub">
+        Every star holds a memory.
+    </p>
+
+    <div class="constellation">
+
+        <div class="star"
+            data-image="assets/J2.jpg"
+            data-title="Early Conversations, Where It All Began"
+            data-text="It's funny to think that everything began with a few messages on Instagram. 
+            We hadn't met, we didn't know what the future would look like and 
+            yet I found myself waiting for your replies and smiling at my phone far more than 
+            I would ever admit. Those conversations were where our story began and 
+            they will always be a memory I cherish.">
+           ⭐
+        </div>
+
+        <div class="star"
+            data-image="assets/J7.jpg"
+            data-title="Mumbai, Through Your Eyes"
+            data-text="We travelled across Mumbai together. One memory I can never forget is 
+            going for lassi in Kurla Market and all those simple moments 
+            that somehow became special because you were there. 
+            There were weekends when I would travel across the city just to see you.
+            Every journey felt worth it because it ended with you. 
+            Mumbai has always been a city people fall in love with, but for me, 
+            Mumbai became special because of you. 
+            Today, when I think about the city, I don't remember the roads, the stations 
+            or the places first. I remember us. 
+            Every corner of Mumbai holds a memory and 
+            almost every beautiful memory I have of Mumbai begins with you.">
+            ⭐
+        </div>
+
+        <div class="star"
+            data-image="assets/J4.jpg"
+            data-title="Your Birthday, My Favorite Celebration"
+            data-text="I still remember your birthday in 2024. 
+            It remains one of my favorite memories.
+            I have never been someone who gets excited about celebrating my own birthday, 
+            but when it came to yours, I wanted to do everything I could to make your day special. 
+            Every little plan, every surprise and every effort came from a place of genuine love 
+            and care. When I look back at our time together, that birthday stands out as one of 
+            the most beautiful days I was lucky enough to share with you. 
+            It is a memory that still brings a smile to my face and one that I will always cherish.">
+            ⭐
+        </div>
+
+        <div class="star"
+            data-image="assets/J5.jpg"
+            data-title="A Birthday Wish For You ❤️"
+            data-text="Very Very Happiest Birthday. 
+            I truly hope this year brings you everything your heart has been quietly wishing for. 
+            May every dream you have, every goal you work for and every hope you carry 
+            find its way to you. You deserve happiness, success, love and all the beautiful things 
+            life has to offer. No matter where life takes us, I will always wish the very best 
+            for you.">
+            ⭐
+        </div>
+
+        <div class="star"
+            data-image="assets/J1.jpg"
+            data-title="What I Miss The Most"
+            data-text="Sometimes I sit and wonder how beautiful everything felt when 
+            we were together. The days we shared, the moments we lived, 
+            the simple comfort of being around each other, all of it still means so much to me. 
+            I miss those days more than I can put into words. I loved being around you, 
+            talking to you, making memories with you. The truth is, I never wanted to lose you. 
+            Even today, a part of me still hopes that maybe someday our paths will cross again. 
+            Until then, I just want you to know that I miss you, I miss us and I miss the 
+            beautiful little world we once shared. More than anything, I hope you're happy, 
+            wherever life takes you.">
+            ⭐
+        </div>
+    </div>
+
+<button id="dataJourneyBtn">
+    Continue Journey →
+</button>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<section id="storyData" class="story-section">
+
+    <div class="section-container">
+
+        <h2>Our Story In Numbers</h2>
+
+        <p class="story-subtitle">
+            Numbers can count memories,
+            but they can never measure what they meant.
+        </p>
+
+        <div class="stats-grid">
+
+            <div class="stat-card">
+                <h3 class="counter" data-target="950">0</h3>
+                <p>Days Of Memories</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>∞</h3>
+                <p>Conversations</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>50+</h3>
+                <p>Weekend Meetups</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>1</h3>
+                <p>Girl Who Changed My Life</p>
+            </div>
+
+        </div>
+
+        <div class="story-message">
+
+            <p>
+                We travelled across Mumbai, shared endless conversations, 
+                celebrated birthdays 
+                and created memories that still feel alive today.
+            </p>
+
+            <p>
+                Looking back, I don't remember every date,
+                every station or every road.
+                What I remember is how happy I felt
+                whenever those journeys ended with you.
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <h2 class="timeline-heading">
+        Our Timeline
+    </h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3>❤️ First Instagram Message</h3>
+                <p>
+                    A simple message that unknowingly
+                    started one of the most important chapters
+                    of my life.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3>🚆 First Journey</h3>
+                <p>
+                    The beginning of countless talks, 
+                    random ice cream plans at 11 PM and many beautiful memories that followed.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3>🏠 A Place That Felt Like Home</h3>
+                <p>
+                    Spending so much time together at your place, turning ordinary days 
+                    into some of my favorite memories. 
+                    It was never really about the place, it was about having you there.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3>🍳 Cooking Together</h3>
+                <p>
+                    Even though you did most of the cooking and I mostly stood beside you 
+                    pretending to help, those moments in the kitchen were some of the happiest 
+                    and simplest moments of my life.
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3>🤗 The Comfort Of Us</h3>
+                <p>
+                    The hugs after a long day, the cuddles during quiet nights and 
+                    the comfort of simply being together. 
+                    Those little moments always meant more to me than I ever said.
+                </p>
+            </div>
+        </div>
+
+        
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3>🌙 Our Little Everyday Life</h3>
+                <p>
+                    Some of my favorite memories aren't the special occasions. 
+                    They're the ordinary days, laughing at random things, sharing food and 
+                    simply enjoying being together.
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <h3>📸 Countless Memories</h3>
+                <p>
+                    Thousands of little moments, pictures, conversations, laughs, hugs, 
+                    late-night talks and memories that slowly became some of the most beautiful 
+                    chapters of my life. 
+                    No matter where life takes us, those memories will always remain special to me.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <button id="lessonBtn">
+        Continue →
+    </button>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- THINGS YOU TAUGHT ME -->
+
+<section id="lessons" class="lessons-section">
+
+    <div class="lessons-container">
+
+        <h2>Things You Taught Me ❤️</h2>
+
+        <p class="lessons-subtitle">
+            Looking back, I realized that some of the most important lessons
+            I learned were because of you.
+        </p>
+
+        <div class="lessons-grid">
+
+            <div class="lesson-card">
+                <h3>❤️ Love Is Found In Small Things</h3>
+
+                <p>
+                    I used to think love was about grand gestures.
+                    You taught me that love is often hidden inside everyday moments,
+                    random conversations, shared meals and simply enjoying someone's presence.
+                </p>
+            </div>
+
+            <div class="lesson-card">
+                <h3>🏠 Home Is A Feeling</h3>
+
+                <p>
+                    Spending time with you taught me that home isn't always a place.
+                    Sometimes home is the comfort, peace and happiness you feel
+                    when you're with someone who matters.
+                </p>
+            </div>
+
+            <div class="lesson-card">
+                <h3>🍳 Happiness Can Be Simple</h3>
+
+                <p>
+                    Some of my favorite memories were never expensive trips
+                    or special occasions.
+                    They were the days we cooked together, shared food and spent time
+                    doing absolutely nothing special.
+                </p>
+            </div>
+
+            <div class="lesson-card">
+                <h3>🤗 Presence Matters More Than Words</h3>
+
+                <p>
+                    The hugs, the cuddles, the comfort and simply having someone beside you
+                    can often say more than a thousand words ever could.
+                </p>
+            </div>
+
+            <div class="lesson-card">
+                <h3>🌙 Ordinary Days Become Extraordinary Memories</h3>
+
+                <p>
+                    Looking back, it wasn't the major events I remember the most.
+                    It was the random evenings, train rides, food cravings,
+                    weekend plans and all the little moments in between.
+                </p>
+            </div>
+
+            <div class="lesson-card">
+                <h3>💖 Thank You</h3>
+
+                <p>
+                    Thank you for every memory,
+                    every laugh,
+                    every journey,
+                    every birthday,
+                    every conversation,
+                    and every moment that helped shape who I am today.
+                </p>
+            </div>
+
+        </div>
+
+        <button id="apologyBtn">
+            Continue →
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- THE HARDEST PART WAS LEAVING -->
+
+<section id="goodbyeChapter" class="goodbye-section">
+
+    <div class="goodbye-container">
+
+        <h2>The Hardest Part Was Leaving ❤️</h2>
+
+        <p class="goodbye-subtitle">
+            Every meeting gave me memories.
+            Every goodbye took a piece of my heart.
+        </p>
+
+        <img
+            src="assets/J6.jpg"
+            alt="Our Memories"
+            class="memory-collage-image">
+
+        <div class="goodbye-message">
+
+            <p>
+                Looking at this photo, I don't just see pictures.
+                I see train rides, long conversations, random laughs,
+                warm hugs, shared meals and the memories we created together.
+            </p>
+
+            <p>
+                We never had the luxury of meeting every day,
+                which is probably why every meeting felt so special.
+                Every time we met, I counted the days until I could see you again.
+            </p>
+
+            <p>
+                It was always wonderful having you around me.
+                Whether we were doing something special or simply spending time together,
+                those moments always felt like the best part of my week.
+            </p>
+
+            <p>
+                The hardest part was never the journey to meet you.
+                The hardest part was saying goodbye.
+            </p>
+
+            <p>
+                Every time I had to leave and return to my town,
+                there was always a part of me that wished time would slow down just a little more.
+                I never wanted those days to end.
+            </p>
+
+            <p>
+                What I miss most isn't just the meetings themselves.
+                It's those final moments before leaving,
+                the long hugs,
+                the silence,
+                and both of us not wanting the day to end.
+            </p>
+
+            <p>
+                Looking back now,
+                I realize those moments meant so much because
+                being with you always felt like where I wanted to be.
+            </p>
+
+        </div>
+
+        <button id="goodbyeBtn">
+            Something I Need To Say →
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="apologySection" class="apology-section">
+
+    <div class="apology-container">
+
+        <h2>Something I Need To Say</h2>
+
+        <img
+            src="assets/J8.jpg"
+            alt="Apology"
+            class="apology-image">
+
+        <div class="apology-letter">
+
+            <p>
+                This is probably the hardest part of everything I wanted to say.
+            </p>
+
+            <p>
+                I am genuinely sorry.
+            </p>
+
+            <p>
+                Sorry for every moment when I wasn't the partner you deserved.
+                Sorry for the times I wasn't emotionally available.
+                Sorry for the times I didn't listen carefully enough.
+                Sorry for the times I didn't understand what you were trying to tell me.
+            </p>
+
+            <p>
+                Sorry for every expectation, every argument, every disagreement,
+                every action and every word that hurt you, even when hurting you
+                was never my intention.
+            </p>
+
+            <p>
+                Looking back today, I know I wasn't perfect.
+                I know there are many things I could have handled better,
+                many conversations I could have listened to more carefully,
+                and many moments where I should have chosen understanding over being right.
+            </p>
+
+            <p>
+                I truly tried my best with the knowledge and maturity I had at that time.
+                But sometimes trying your best and doing the right thing are not always the same.
+            </p>
+
+            <p>
+                Over the last two months, I have thought about us a lot.
+                Maybe we are different in ways that neither of us fully understood.
+                Maybe life became harder than we expected.
+                Maybe some wounds became bigger than the love we were trying to protect.
+            </p>
+
+            <p>
+                I don't know when you will read this.
+                Maybe today.
+                Maybe weeks later.
+                Or maybe never.
+            </p>
+
+            <p>
+                But I couldn't let this birthday pass without telling you how sorry I am.
+            </p>
+
+            <p>
+                You were a huge part of my life.
+                You were there during some of my happiest memories.
+                You gave me moments, experiences and lessons that I will carry with me forever.
+            </p>
+
+            <p>
+                Whether you forgive me or not is completely your choice.
+                Whether we ever speak again is also your choice.
+            </p>
+
+            <p>
+                I am not writing this to force an outcome.
+                I am writing this because after everything we shared,
+                you deserved an honest apology from my heart.
+            </p>
+
+            <p>
+                If there is one thing I wish I could change,
+                it would be every moment where my words, actions or decisions
+                made you feel less loved, less understood or less important than you truly were.
+            </p>
+
+            <p>
+                For every hurt I caused,
+                for every tear,
+                for every disappointment,
+                and for every moment where I failed to be the person you needed,
+                I am deeply sorry.
+            </p>
+
+            <p class="final-line">
+                No matter what happens next,
+                I will always be grateful that our paths crossed.
+            </p>
+
+        </div>
+
+        <button id="quizStartBtn">
+            Quiz ❤️
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- QUIZ CHAPTER -->
+
+<section id="quizSection" class="quiz-section">
+
+    <div class="quiz-container">
+
+        <h1 id="quizQuestion"></h1>
+
+        <div id="quizAnswers"></div>
+
+        <div id="quizAnimation"></div>
+
+        <button id="nextQuizBtn">
+            Next →
+        </button>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Popup -->
+<div id="memoryModal" class="modal">
+    <div class="modal-content">
+
+        <span id="closeModal">&times;</span>
+
+        <img id="memoryImage"
+             src=""
+             alt="memory">
+
+        <h3 id="memoryTitle"></h3>
+
+        <p id="memoryText"></p>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
